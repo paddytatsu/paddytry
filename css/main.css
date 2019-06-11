@@ -192,3 +192,11 @@ nav a {
 	text-decoration: none;
 }
 
+
+@media (max-width:1000px){
+    
+    .container{
+        min-width: 600px;
+    }
+    
+}
