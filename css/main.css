@@ -160,7 +160,7 @@ nav a {
 
 /* .header */
 .header {
-	padding: 100px 0;
+	padding: 50px 0;
 	background-image: url(http://massive.markup.themebucket.net/assets/img/about/sb-1.jpg);
 	background-position: 50% 0;
 	background-size: cover;
@@ -170,26 +170,6 @@ nav a {
 .header h1 {
 	color: white;
 	font-size: 24px;
-}
-
-.breadcrumb {
-	padding: 15px;
-	font-size: 12px;
-	background-color: rgba(0,0,0,.7);
-	letter-spacing: 1px;
-}
-
-.breadcrumb > .active {
-	color: #ccc;
-}
-
-.breadcrumb a {
-	color: #7e7e7e;
-}
-
-.breadcrumb a:active, .breadcrumb a:hover {
-	color: #ccc;
-	text-decoration: none;
 }
 
 
