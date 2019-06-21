@@ -171,6 +171,7 @@ nav a {
 	background-position: 50% 0;
 	background-size: cover;
 	background-repeat: no-repeat;
+    background-attachment: fixed
 }
 
 .header h1 {
@@ -189,4 +190,17 @@ nav a {
         
     }
     
+}
+
+.breaze{
+    animation-name:breaze;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-direction:alternate;
+}
+@keyframes breaze {
+    0% {transform: scale(.5);}
+    50% {transform: scale(.8) ;}
+    100% {transform: scale(1) ;}
 }
