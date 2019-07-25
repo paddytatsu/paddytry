@@ -1,0 +1,43 @@
+section {
+	padding: 30px 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav{
+    padding: 0 0;
+
+}
+
+nav a{
+    font-weight: 900
+}
+
+nav div a{
+    font-weight: 300
+}
+
+/* .header */
+.header {
+	padding: 80px 0;
+	background-image: url(http://massive.markup.themebucket.net/assets/img/about/sb-1.jpg);
+	background-position: 50% 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.header h1 {
+	color: white;
+	font-size: 24px;
+}
+
+@media (max-width:1000px){
+    
+    .container{
+        max-width: 600px;
+    }
+}
